@@ -1,5 +1,4 @@
-
-baseURL = "/"
+baseURL = "https://sramkrishna.github.io/rt-bday-50/"
 languageCode = "en-us"
 title = "Birthday Wishes Gallery"
 theme = "birthday-theme"
