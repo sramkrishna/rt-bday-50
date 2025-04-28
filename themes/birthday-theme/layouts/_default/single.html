@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>{{ .Title }}</h1>
+  <video controls width="640">
+    <source src="{{ .Params.video }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p>{{ .Params.description }}</p>
+  <p><a href="/">← Back to gallery</a></p>
+</body>
+</html>

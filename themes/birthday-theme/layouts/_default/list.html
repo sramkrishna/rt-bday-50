@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <script>
+    document.addEventListener('scroll', function() {
+      const scrollTexts = document.querySelectorAll('.scroll-text');
+      const triggerBottom = window.innerHeight * 0.85;
+
+      scrollTexts.forEach(text => {
+        const textTop = text.getBoundingClientRect().top;
+        if (textTop < triggerBottom) {
+          text.classList.add('show');
+        }
+      });
+    });
+    </script>
+
+  <div class="hero-banner">
+	  <img src="/images/rt-50th-hero-3.png" class="hero-background"/>
+    <div class="hero-text">
+      <h1>Aarti</h1>
+    </div>
+	  <img src="/images/aarti-cropped.jpg" class="wife-photo"/>
+  </div>
+  <a href="#video-gallery" class="jump-button">🎥 See All Videos</a>
+
+  <section id="intro-messages">
+    <div class="scroll-text"> 
+      Today we celebrate Aarti's 50th birthday.
+    </div>
+    <div class="scroll-text"> 
+      For you, Aarti we've put together a list of videos from all your friends and family. To wish you on this great occasion!
+    </div>
+  </section>
+
+  <section id="video-gallery">
+
+      <div class="gallery">
+        {{ $videos := site.GetPage "section" "videos" }}
+        {{ range $videos.Pages }}
+          <div class="video-card">
+            <a href="{{ .RelPermalink }}">
+              <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+              <h3>{{ .Title }}</h3>
+            </a>
+          </div>
+        {{ end }}
+      </div>
+  </section>
+</body>
+</html>
+

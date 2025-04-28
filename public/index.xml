@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Birthday Wishes on Birthday Wishes Gallery</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Birthday Wishes on Birthday Wishes Gallery</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy Birthday from Alice!</title>
+      <link>//localhost:1313/videos/alice/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/videos/alice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Happy Birthday from Bob!</title>
+      <link>//localhost:1313/videos/bob/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/videos/bob/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Happy Birthday from Carol!</title>
+      <link>//localhost:1313/videos/carol/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/videos/carol/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
