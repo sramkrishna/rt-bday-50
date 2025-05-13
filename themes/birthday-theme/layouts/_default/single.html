@@ -1,18 +1,26 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>{{ .Title }}</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>{{ .Title }}</h1>
-  <video controls width="640">
-    <source src="{{ .Params.video }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p>{{ .Params.description }}</p>
-  <p><a href="/">← Back to gallery</a></p>
+
+  <div class="video-page">
+    <h1>{{ .Title }}</h1>
+
+    <video controls width="640" poster="{{ .Params.thumbnail | relURL }}">
+      <source src="{{ .Params.video | relURL }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <p class="video-description">{{ .Params.description }}</p>
+
+    <p><a class="jump-button" href="{{ "/" | relURL }}">← Back to gallery</a></p>
+  </div>
+
 </body>
 </html>
+

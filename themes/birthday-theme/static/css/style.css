@@ -64,15 +64,23 @@ h1 {
 }
 
 .video-card {
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 2px solid #444;
+  transition: border-color 0.3s ease, transform 0.2s ease;
 }
+
+.video-card:hover {
+  border-color: #000;
+  transform: scale(1.02); /* Optional: subtle zoom */
+  cursor: pointer;
+}
+
 
 .video-card img {
   width: 100%;
-  border-radius: 6px;
+  aspect-ratio: 1 / 1;        /* Make it a perfect square */
+  object-fit: cover;          /* Crop to fill square */
+  border-radius: 0px;
+  display: block;
 }
 
 .video-card h3 {
@@ -82,9 +90,11 @@ h1 {
 .hero-banner {
   position: relative;
   width: 100%;
-  height: auto;
-  text-align: center;
+  height: 100vh; /* Full viewport height */
+  max-height: 800px; /* Optional: cap for large screens */
+  overflow: hidden;
 }
+
 
 .hero-background {
   width: 100%;
@@ -94,28 +104,40 @@ h1 {
 
 .hero-text {
   position: absolute;
-  top: 55%; /* Adjust to position under "Happy Birthday" */
-  left: 37%;
-  transform: translateX(-50%);
-  background: none;
+  top: 74%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .hero-text h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 126px;
-  color: #D96E79; /* Beautiful deep rose-gold */
-  text-shadow:
-    2px 2px 6px rgba(0,0,0,0.4); /* Soft dark outline for sharpness */
+  font-size: clamp(48px, 8vw, 155px);
+  color: #D96E79;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
   margin: 0;
-  padding: 0;
 }
 
-.wife-photo {
+.hero-content {
   position: absolute;
-  top: 21%;
-  right: 10%;
-  width: 450px;
-  height: auto;
-  border-radius: 20px; /* optional: rounded corners */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* optional: soft shadow */
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* wrap for small screens */
+  text-align: center;
 }
+
+
+@media (max-width: 600px) {
+  .wife-photo {
+    top: 60%;
+    right: 50%;
+    transform: translateX(50%);
+    width: clamp(150px, 60vw, 280px);
+  }
+}
+
