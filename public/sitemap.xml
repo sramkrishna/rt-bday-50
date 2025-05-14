@@ -22,6 +22,14 @@
   </url><url>
     <loc>http://localhost:1313/rt-bday-50/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/rt-bday-50/story/01-baby/</loc>
+  </url><url>
+    <loc>http://localhost:1313/rt-bday-50/story/02-baby/</loc>
+  </url><url>
+    <loc>http://localhost:1313/rt-bday-50/story/</loc>
+  </url><url>
     <loc>http://localhost:1313/rt-bday-50/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/rt-bday-50/story/03-teenage/</loc>
   </url>
 </urlset>

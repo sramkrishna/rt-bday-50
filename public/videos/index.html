@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head><script src="/rt-bday-50/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=rt-bday-50/livereload" data-no-instant defer></script>
   
-<link rel="stylesheet" href="/rt-bday-50/css/style.min.02174353d2cf55841fa47932a7af81927a0abebf69800363b4c638bd3d0e3fdb.css">
+  <link rel="stylesheet" href="/rt-bday-50/css/style.min.abc8f64e40a803e76e856145d4224939c497d17c3f19223c8e0ae81c0793b566.css">
 
   <meta charset="UTF-8">
   <title>Videos</title>
@@ -13,54 +14,183 @@
 
   <div class="relative w-full aspect-[3/2] max-h-[90vh]">
     <img 
-       src="/rt-bday-50/images/rt-50-bday-hero.png" 
+      src="/rt-bday-50/images/rt-50-bday-hero.png" 
       alt="Happy 50th Birthday" 
       class="absolute inset-0 w-full h-full object-contain z-10"
     />
-
   </div>
 
   <a href="#video-gallery" class="jump-button">🎥 See All Videos</a>
 
-  <section id="intro-messages">
-    <div class="scroll-text">Today we celebrate Aarti's 50th birthday.</div>
-    <div class="scroll-text">For you, Aarti, we've put together a list of videos from your friends and family!</div>
-  </section>
+  <section id="intro-story" class="space-y-16 px-4 max-w-4xl mx-auto">
+  
+  
+    <div class="story-block flex flex-col md:flex-row  items-center gap-6 scroll-reveal">
+      <img src="/rt-bday-50/images/aarti-baby-1.jpeg" alt="Childhood" class="w-full md:w-1/2 rounded-lg shadow-md">
+     <div class="text-lg font-medium leading-relaxed text-gray-900 md:w-1/2 prose prose-p:my-2 prose-p:text-current">
+  <p>Today, Aarti turns a 50. Hard to believe this beautiful baby has reached
+this milestone.</p>
+
+</div>
+ 
+    </div>
+  
+    <div class="story-block flex flex-col md:flex-row md:flex-row-reverse items-center gap-6 scroll-reveal">
+      <img src="/rt-bday-50/images/baby-aarti-many-moods.jpeg" alt="Childhood" class="w-full md:w-1/2 rounded-lg shadow-md">
+     <div class="text-lg font-medium leading-relaxed text-gray-900 md:w-1/2 prose prose-p:my-2 prose-p:text-current">
+  <p>For those of her, we know how expressive she is. That was true even
+during her childhood days. Always hating the heat, you can see at least
+one of those photos where she was definitely not happy with the weather!</p>
+
+</div>
+ 
+    </div>
+  
+    <div class="story-block flex flex-col md:flex-row  items-center gap-6 scroll-reveal">
+      <img src="/rt-bday-50/images/daddy-being-naughty.jpeg" alt="Teenage Years" class="w-full md:w-1/2 rounded-lg shadow-md">
+     <div class="text-lg font-medium leading-relaxed text-gray-900 md:w-1/2 prose prose-p:my-2 prose-p:text-current">
+  <p>Aarti has always been &ldquo;Daddy&rsquo;s Girl&rdquo; and here we see that Daddy is definitely up to no good.</p>
+
+</div>
+ 
+    </div>
+  
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll(".scroll-reveal").forEach((el) => {
+      observer.observe(el);
+    });
+  });
+</script>
+
+<style>
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.scroll-reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+
+
 
   <section id="video-gallery">
-    <div class="gallery">
+    <div class="flex flex-col items-center gap-16 px-4">
       
       
-        <div class="video-card">
-          <a href="/rt-bday-50/videos/alice/">
-            <img src="/videos/thumb_alice.jpg" alt="Happy Birthday from Alice!">
-            <h3>Happy Birthday from Alice!</h3>
-          </a>
-        </div>
       
-        <div class="video-card">
-          <a href="/rt-bday-50/videos/bob/">
-            <img src="/videos/thumb_bob.jpg" alt="Happy Birthday from Bob!">
-            <h3>Happy Birthday from Bob!</h3>
-          </a>
-        </div>
+        
+        
+        
+          <section class="my-12 w-full max-w-6xl mx-auto">
+            
+              <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            
+              
+                
+                  <div class="relative w-full pb-[56.25%] rounded-xl overflow-hidden shadow-lg">
+                    <video
+                      class="absolute top-0 left-0 w-full h-full object-cover"
+                      src="/videos/from_alice.mp4"
+                      controls
+                      preload="metadata"
+                      poster="/rt-bday-50/">
+                    </video>
+                  </div>
+                
+              
+            </div>
+          </section>
+        
       
-        <div class="video-card">
-          <a href="/rt-bday-50/videos/carol/">
-            <img src="/videos/thumb_carol.jpg" alt="Happy Birthday from Carol!">
-            <h3>Happy Birthday from Carol!</h3>
-          </a>
-        </div>
+        
+        
+        
+          <section class="my-12 w-full max-w-6xl mx-auto">
+            
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            
+              
+                
+                  <div class="relative w-full pb-[56.25%] rounded-xl overflow-hidden shadow-lg">
+                    <video
+                      class="absolute top-0 left-0 w-full h-full object-cover"
+                      src="/videos/from_bob.mp4"
+                      controls
+                      preload="metadata"
+                      poster="/rt-bday-50/">
+                    </video>
+                  </div>
+                
+              
+            </div>
+          </section>
+        
       
-        <div class="video-card">
-          <a href="/rt-bday-50/videos/cats/">
-            <img src="/rt-bday-50/images/cats-thumbnail.jpg" alt="Happy Birthday from the cats!">
-            <h3>Happy Birthday from the cats!</h3>
-          </a>
-        </div>
+        
+        
+        
+          <section class="my-12 w-full max-w-6xl mx-auto">
+            
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+            
+              
+                
+                  <div class="relative w-full pb-[56.25%] rounded-xl overflow-hidden shadow-lg">
+                    <video
+                      class="absolute top-0 left-0 w-full h-full object-cover"
+                      src="/videos/from_carol.mp4"
+                      controls
+                      preload="metadata"
+                      poster="/rt-bday-50/">
+                    </video>
+                  </div>
+                
+              
+            </div>
+          </section>
+        
+      
+        
+        
+        
+          <section class="my-12 w-full max-w-6xl mx-auto">
+            
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+            
+              
+                
+                  <div class="relative w-full pb-[56.25%] rounded-xl overflow-hidden shadow-lg">
+                    <video
+                      class="absolute top-0 left-0 w-full h-full object-cover"
+                      src="/rt-bday-50/videos/cats.mp4"
+                      controls
+                      preload="metadata"
+                      poster="/rt-bday-50/">
+                    </video>
+                  </div>
+                
+              
+            </div>
+          </section>
+        
       
     </div>
   </section>
+
 </body>
 </html>
-
