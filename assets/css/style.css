@@ -1,0 +1,146 @@
+@tailwind base;
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #fff2f8 url('/rt-bday-50/images/mandala-pattern.png') repeat;
+   background-size: 600px 800px;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.intro-messages {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.scroll-text {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  font-size: 28px;
+  color: #5c2a2a; /* deep, elegant color */
+  margin-bottom: 40px;
+}
+
+.scroll-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.jump-button {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 80px; /* Add this line to push intro-text lower */
+  padding: 12px 24px;
+  background-color: #b76e79; /* matching rose gold */
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+
+.jump-button:hover {
+  background-color: #a55d6a;
+}
+
+
+.jump-button:hover {
+  background-color: #a55d6a;
+}
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.video-card {
+  border: 2px solid #444;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.video-card:hover {
+  border-color: #000;
+  transform: scale(1.02); /* Optional: subtle zoom */
+  cursor: pointer;
+}
+
+
+.video-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;        /* Make it a perfect square */
+  object-fit: cover;          /* Crop to fill square */
+  border-radius: 0px;
+  display: block;
+}
+
+.video-card h3 {
+  margin: 10px 0 0 0;
+}
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  max-height: 800px; /* Optional: cap for large screens */
+  overflow: hidden;
+}
+
+
+.hero-background {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 74%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(48px, 8vw, 155px);
+  color: #D96E79;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  margin: 0;
+}
+
+.hero-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* wrap for small screens */
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .wife-photo {
+    top: 60%;
+    right: 50%;
+    transform: translateX(50%);
+    width: clamp(150px, 60vw, 280px);
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

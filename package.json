@@ -1,0 +1,28 @@
+{
+  "name": "rt-bday-50",
+  "version": "1.0.0",
+  "description": "Aarti 50th birthday website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sramkrishna/rt-bday-50.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sramkrishna/rt-bday-50/issues"
+  },
+  "homepage": "https://github.com/sramkrishna/rt-bday-50#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,2 @@
+/*! tailwindcss v4.1.6 | MIT License | https://tailwindcss.com */
+.absolute{position:absolute}.relative{position:relative}.contents{display:contents}.flex{display:flex}.aspect-\[3\/2\]{aspect-ratio:3/2}.h-full{height:100%}.max-h-\[90vh\]{max-height:90vh}.w-full{width:100%}.items-end{align-items:flex-end}.justify-center{justify-content:center}.overflow-hidden{overflow:hidden}.object-contain{object-fit:contain}.text-\[clamp\(2rem\,8vw\,6rem\)\]{font-size:clamp(2rem,8vw,6rem)}.text-\[\#D96E79\]{color:#d96e79}
