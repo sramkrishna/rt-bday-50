@@ -21,9 +21,7 @@
     "classes": [
       "absolute",
       "aspect-[3/2]",
-      "bg-pink-500",
       "gallery",
-      "h-[87px]",
       "h-full",
       "inset-0",
       "jump-button",
@@ -34,7 +32,6 @@
       "video-card",
       "video-description",
       "video-page",
-      "w-[123px]",
       "w-full",
       "z-10"
     ],

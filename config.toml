@@ -1,7 +1,8 @@
 baseURL = "https://sramkrishna.github.io/rt-bday-50/"
 languageCode = "en-us"
-title = "Birthday Wishes Gallery"
+title = "Aarti 50th Birthday Celebration"
 theme = "birthday-theme"
+publishDir = "public"
 
 [build]
   [build.buildStats]
