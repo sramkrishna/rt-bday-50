@@ -58,7 +58,7 @@
   <section id="video-gallery">
     <div class="flex flex-col items-center gap-16 px-4">
       {{ $videos := site.GetPage "section" "videos" }}
-      {{ $categories := slice "Immediate Family" "Older Generation Family" "Family" "Friends" }}
+      {{ $categories := slice "Immediate Family" "Older Generation Family" "Family" "Friends" "Aarti" }}
       {{ range $categories }}
         {{ $category := trim . " " }}
         {{ $pages := where $videos.Pages "Params.category" $category }}

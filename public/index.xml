@@ -73,6 +73,13 @@
     </item>
     <item>
       <title>HAPPY BIRTHDAY</title>
+      <link>http://localhost:1313/rt-bday-50/videos/cc_and_mc/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rt-bday-50/videos/cc_and_mc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HAPPY BIRTHDAY</title>
       <link>http://localhost:1313/rt-bday-50/videos/friend1/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/rt-bday-50/videos/friend1/</guid>
@@ -164,6 +171,13 @@
     </item>
     <item>
       <title>HAPPY BIRTHDAY</title>
+      <link>http://localhost:1313/rt-bday-50/videos/pure-joy-aarti/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rt-bday-50/videos/pure-joy-aarti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HAPPY BIRTHDAY</title>
       <link>http://localhost:1313/rt-bday-50/videos/ranjit_and_fam/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/rt-bday-50/videos/ranjit_and_fam/</guid>
@@ -181,6 +195,13 @@
       <link>http://localhost:1313/rt-bday-50/videos/saaks/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/rt-bday-50/videos/saaks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HAPPY BIRTHDAY</title>
+      <link>http://localhost:1313/rt-bday-50/videos/shweta/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rt-bday-50/videos/shweta/</guid>
       <description></description>
     </item>
     <item>
@@ -224,13 +245,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/rt-bday-50/story/03-teenage/</guid>
       <description>&lt;p&gt;Aarti has always been &amp;ldquo;Daddy&amp;rsquo;s Girl&amp;rdquo; and here we see that Daddy is definitely up to no good.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Young mother</title>
-      <link>http://localhost:1313/rt-bday-50/story/04-young-mother/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rt-bday-50/story/04-young-mother/</guid>
-      <description>&lt;p&gt;Young mother Aarti with younger sister Archana and Saakshi. (and let&amp;rsquo;s not forget the dog)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

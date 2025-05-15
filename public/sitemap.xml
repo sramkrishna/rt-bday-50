@@ -32,6 +32,9 @@
     <loc>http://localhost:1313/rt-bday-50/videos/cats/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/rt-bday-50/videos/cc_and_mc/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/rt-bday-50/videos/friend1/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -71,6 +74,9 @@
     <loc>http://localhost:1313/rt-bday-50/videos/nuritzi_and_tom/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/rt-bday-50/videos/pure-joy-aarti/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/rt-bday-50/videos/ranjit_and_fam/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -78,6 +84,9 @@
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/rt-bday-50/videos/saaks/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/rt-bday-50/videos/shweta/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/rt-bday-50/videos/suku_girija/</loc>
@@ -103,7 +112,5 @@
     <loc>http://localhost:1313/rt-bday-50/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/rt-bday-50/story/03-teenage/</loc>
-  </url><url>
-    <loc>http://localhost:1313/rt-bday-50/story/04-young-mother/</loc>
   </url>
 </urlset>
