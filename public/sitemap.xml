@@ -26,6 +26,9 @@
     <loc>http://localhost:1313/rt-bday-50/videos/arvie/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/rt-bday-50/videos/arvie_parents/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/rt-bday-50/videos/cats/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -100,5 +103,7 @@
     <loc>http://localhost:1313/rt-bday-50/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/rt-bday-50/story/03-teenage/</loc>
+  </url><url>
+    <loc>http://localhost:1313/rt-bday-50/story/04-young-mother/</loc>
   </url>
 </urlset>
