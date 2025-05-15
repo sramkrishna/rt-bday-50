@@ -1,8 +1,9 @@
 ---
-title: "Happy Birthday from the cats!"
-date: 2025-04-20
+title: "HAPPY BIRTHDAY"
+date: 2025-05-14
 video: "videos/cats.mp4"
-thumbnail: "images/cats-thumbnail.jpg"
+thumbnail: 
 category: "Friends"
-description: "Sending warm wishes from cats!"
+description: "N/A"
 ---
+

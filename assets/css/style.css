@@ -1,10 +1,11 @@
 @tailwind base;
 
 body {
+
   font-family: sans-serif;
   text-align: center;
-  background: #fff2f8 url('/rt-bday-50/images/mandala-pattern.png') repeat;
-   background-size: 600px 800px;
+  background: #fae8cf url('/rt-bday-50/images/bg-img.png') repeat;
+  background-size: 500px 500px
 }
 
 h1 {
