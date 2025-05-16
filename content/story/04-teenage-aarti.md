@@ -4,4 +4,4 @@ image: "images/teenage-aarti.jpeg"
 order: 4
 ---
 
-Family outing with Mummy, Dadd, and Aachu.  
+Family outing with Mummy, Dadd, and Achu.  
